@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function fetchTodayWeather(apiKey, city) {
     // Fetch current weather data from OpenWeatherMap API
     // Construct the API URL
-    const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
     // Fetch data using fetch() or jQuery.ajax()
     return fetch(apiUrl)
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function fetchForecast(apiKey, city) {
     // Fetch 5-day forecast data from OpenWeatherMap API starting from tomorrow
     // Construct the API URL
-    const apiUrl = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
 
     // Fetch data using fetch() or jQuery.ajax()
     return fetch(apiUrl)
