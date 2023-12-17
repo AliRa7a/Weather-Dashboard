@@ -1,0 +1,8 @@
+button#search-button{
+    padding: 5px 90px;
+}
+#forecast-cards{
+    width: 100%;
+    background-color: rgb(31, 33, 44);
+    color: white;
+}
