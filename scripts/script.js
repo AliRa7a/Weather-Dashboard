@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const todayWeatherHTML = `
       <div class="card mb-3">
         <div class="card-body">
-          <h4 class="card-title">${city} ${todayDate} <img src="http://openweathermap.org/img/w/${weather[0].icon}.png" alt="Weather Icon"></h4>
+          <h4 class="card-title">${city} ${todayDate} <img src="https://openweathermap.org/img/w/${weather[0].icon}.png" alt="Weather Icon"></h4>
           <div class="card-text">
             <strong>Temp:</strong> ${Math.round(main.temp - 273.15)}°C<br>
             <strong>Wind:</strong> ${windSpeedKPH} KPH <br>
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <div class="col-md-2">
             <div class="card">
               <div class="card-body p-0">
-                <h5 class="card-title"><strong>${formattedDate}</strong> <img src="http://openweathermap.org/img/w/${info.icon}.png" alt="Weather Icon"></h5>
+                <h5 class="card-title"><strong>${formattedDate}</strong> <img src="https://openweathermap.org/img/w/${info.icon}.png" alt="Weather Icon"></h5>
                 <p class="card-text">Temp:${temperature}°C</p>
                 <p class="card-text">Wind: ${info.wind} KPH</p>
                 <p class="card-text">Humidity:${info.humidity}%</p>
