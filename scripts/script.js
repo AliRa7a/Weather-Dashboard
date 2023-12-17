@@ -28,8 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   function saveToHistory(city) {
-    // Save search history logic (you can use localStorage or another storage method)
-    // Append city to historyList
   }
 
   function triggerWeatherSearch(cityName) {
